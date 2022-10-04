@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    list-style:none;
+    font-family: 'KOTRAHOPE';
+}
+body{
+    margin: 0px;
+}
+.hidden {
+    display: none;
+}
+#clock{
+    text-align: center;
+    text-shadow: 0px 3px 7px black;
+    color: white;
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+#login-form{
+    text-align: center;
+}
+/* input안에 text 타입포함 */
+form input[type="text"]{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none ;
+    border-bottom: 1px solid rgb(169, 214, 255);
+    font-size: 20px;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="submit"], form input[type="button"],
+#todo-board li button{
+    padding: 5px 10px;
+    background-color: #414141;
+    box-shadow: 0px 5px 10px rgb(158, 158, 158);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    font-size: 15px;
+}
+form input[type="submit"]:hover, form input[type="button"]:hover,
+#todo-board li button:hover{
+    background-color: #9b9b9b;
+}
+
+#title{
+    color: white;
+    
+}
+#todo-form{
+    text-align: center;
+    
+}
+.plus-room{
+    margin-bottom: 20px;
+}
+
+#todo-board{
+    text-align: left;
+    margin-right: 40px;
+}
+#todo-board li{
+    color: white;
+    clear: both;
+    font-size: 23px;
+}
+#todo-board li button{
+    float: right;
+    background-color: rgb(70, 35, 35);
+}
